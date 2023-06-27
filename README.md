@@ -56,12 +56,12 @@ time : @Pattern type used <br>
 </br>
 <b> Add User </b>
 
-* PostMapping: /addUser
+* PostMapping: addUser
 
 This endpoint makes a call to method in userService class which is connected to database. In database we add a new user given through API.
 
 
-* GetMapping: /getAllUser
+* GetMapping: getAllUser
 
 This endpoint makes a call to method in userService class which retrieves data of all users from database. This data is sent to controller which is then sent through the API to client.
 
